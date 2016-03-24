@@ -442,7 +442,7 @@
           var awardIdx = 'top' + (i+1).toString();
           $("#" + awardIdx + "-name").html(topFive[i].info.name);
           if(topFive[i].info.snippet_text != undefined)
-              $("#" + awardIdx + "-abstract").html(topFive[i].info.snippet_text + "read more");
+              $("#" + awardIdx + "-abstract").html(topFive[i].info.snippet_text + "(read more)");
           else
               $("#" + awardIdx + "-abstract").html("");
 
