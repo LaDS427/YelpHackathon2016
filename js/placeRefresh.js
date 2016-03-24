@@ -48,12 +48,12 @@ function PlaceRefresh(googleMap , googlePlace){
             //
             // Update with your auth tokens.
             //
-            consumerKey : "zcFe3Df0yANPHyQqtEmI3A",
-            consumerSecret : "36cVufkE-cV773wtr53r-Rp4M6M",
-            accessToken : "jaRJXs3rPFSvTj-Kx9LmxoOH6NpSExx1",
+            consumerKey : "40R5jKDpICdMcCS-J2gatA",
+            consumerSecret : "xiNedpdcWGubi7CpzlI_rL8nNTQ",
+            accessToken : "qAn9tBQdOAVFjU6DWHNWyDB73-pCGia9",
             // This example is a proof of concept, for how to use the Yelp v2 API with javascript.
             // You wouldn't actually want to expose your access token secret like this in a real application.
-            accessTokenSecret : "PqjD7maq0L6q22Wqd-jIM-YOzJw",
+            accessTokenSecret : "XYdqJ8M5a1rDvait0-eVteAKasI",
             serviceProvider : {
                 signatureMethod : "HMAC-SHA1"
             }
