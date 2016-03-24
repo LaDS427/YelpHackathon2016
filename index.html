@@ -75,59 +75,59 @@
         <legend><h3 style="color: white"> Top 5 Restaurant </h3></legend>
         <div style="background: rgba(0,0,0,0.5);padding:10px">
         <div class="media" style="background: none; color: white; font-size: 0.9em">
-            <div class="media-left">
-                <a id="top1-link" href="#">
+            <a id="top1-link" href="#" style="color:white;text-decoration:none;">
+                <div class="media-left">
                     <img id="top1-img"class="media-object">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 id="top1-name" class="media-heading">Media heading</h4>
-                <p id="top1-abstract"></p>
-            </div>
+                </div>
+                <div class="media-body">
+                    <h4 id="top1-name" class="media-heading">Media heading</h4>
+                    <p id="top1-abstract"></p>
+                </div>
+            </a>
         </div>
         <div class="media" style="background: none; color: white; font-size: 0.9em">
-            <div class="media-left">
-                <a id="top2-link" href="#">
+            <a id="top2-link" href="#" style="color:white;text-decoration:none;">
+                <div class="media-left">
                     <img id="top2-img"class="media-object">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 id="top2-name" class="media-heading">　</h4>
-                <p id="top2-abstract"></p>
-            </div>
+                </div>
+                <div class="media-body">
+                    <h4 id="top2-name" class="media-heading">　</h4>
+                    <p id="top2-abstract"></p>
+                </div>
+            </a>
         </div>
         <div class="media" style="background: none; color: white; font-size: 0.9em">
-            <div class="media-left">
-                <a id="top3-link" href="#">
+            <a id="top3-link" href="#" style="color:white;text-decoration:none;">
+                <div class="media-left">
                     <img id="top3-img"class="media-object">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 id="top3-name" class="media-heading">　</h4>
-                <p id="top3-abstract"></p>
-            </div>
+                </div>
+                <div class="media-body">
+                    <h4 id="top3-name" class="media-heading">　</h4>
+                    <p id="top3-abstract"></p>
+                </div>
+            </a>
         </div>
         <div class="media" style="background: none; color: white; font-size: 0.9em">
-            <div class="media-left">
-                <a id="top4-link" href="#">
+            <a id="top4-link" href="#" style="color:white;text-decoration:none;">
+                <div class="media-left">
                     <img id="top4-img"class="media-object">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 id="top4-name" class="media-heading">　</h4>
-                <p id="top4-abstract"></p>
-            </div>
+                </div>
+                <div class="media-body">
+                    <h4 id="top4-name" class="media-heading">　</h4>
+                    <p id="top4-abstract"></p>
+                </div>
+            </a>
         </div>
         <div class="media" style="background: none; color: white; font-size: 0.9em">
-            <div class="media-left">
-                <a id="top5-link" href="#">
+            <a id="top5-link" href="#" style="color:white;text-decoration:none;">
+                <div class="media-left">
                     <img id="top5-img"class="media-object">
-                </a>
-            </div>
-            <div class="media-body">
-                <h4 id="top5-name" class="media-heading">　</h4>
-                <p id="top5-abstract"></p>
-            </div>
+                </div>
+                <div class="media-body">
+                    <h4 id="top5-name" class="media-heading">　</h4>
+                    <p id="top5-abstract"></p>
+                </div>
+            </a>
         </div>
         </div>
       </div>
@@ -442,7 +442,7 @@
           var awardIdx = 'top' + (i+1).toString();
           $("#" + awardIdx + "-name").html(topFive[i].info.name);
           if(topFive[i].info.snippet_text != undefined)
-              $("#" + awardIdx + "-abstract").html(topFive[i].info.snippet_text);
+              $("#" + awardIdx + "-abstract").html(topFive[i].info.snippet_text + "read more");
           else
               $("#" + awardIdx + "-abstract").html("");
 
